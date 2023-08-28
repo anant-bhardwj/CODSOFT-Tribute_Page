@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.whole{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+    box-shadow: 20px black;
+}
+
+.title-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    padding: 0 50px;
+    background-color: rgb(31, 30, 27);
+}
+
+.title-image > img{
+    height: 200px;
+}
+
+.title-text{
+    color: aliceblue;
+    text-align: right;
+}
+
+.title-text > *{
+    padding: 10px;
+    margin: 0;
+}
+
+.title-main{
+    font-size: 50px;
+}
+
+.title-desc, .title-date {
+    font-size: 30px;
+}
